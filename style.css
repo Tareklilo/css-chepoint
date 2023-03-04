@@ -1,0 +1,28 @@
+html, body{
+font-family: "roboto", sans-serif;
+
+}
+
+*{margin: 0;}
+/* nav styling*/
+.navigation{
+    background-color: rgb(177, 207, 207);
+ul{
+    list-style-type: none;
+  
+}    
+}
+/*back styling*/
+.alpha{background-color: antiquewhite;}
+
+/*whole section*/
+section{
+margin-bottom: 100px;
+border: 3px groove rgb(11, 11, 13);
+}
+/*hover only*/
+nav li a:hover{
+
+    background-color: blueviolet;
+    transition: ease-in 300ms;
+}
